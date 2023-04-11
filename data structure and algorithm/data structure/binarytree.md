@@ -13,7 +13,7 @@
 
 如果二叉树中除了叶子节点，每个节点的度都为2，则此二叉树为满二叉树。如图所示：
 
-<img src="pic\Full binary tree.png" style="zoom: 67%;" />
+<img src="pic\Full binary tree.png" style="zoom: 45%;" />
 
 满二叉树还具有以下性质：
 
