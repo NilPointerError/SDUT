@@ -5,7 +5,7 @@
 
 数据结构如图所示：
 
-<img src="..\pic\SegmentTree.jpg" style="zoom:80%;" />
+<img src="..\..\pic\SegmentTree.jpg" style="zoom:80%;" />
 
 ```c++
 #include <iostream>
