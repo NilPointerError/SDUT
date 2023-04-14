@@ -1,6 +1,6 @@
 如图所示，是Trie的一种简单的实现方式，图中的存放了ab、abc、b这几个字母，需要注意的是：根节点不含有元素，子节点的每个分支存放的字符互不相同，通过count值保存字符串的数量，默认为0
 
-<img src="..\pic\Trie.jpg" style="zoom: 67%;" />
+<img src="..\..\pic\Trie.jpg" style="zoom: 67%;" />
 
 简单Trie类的插入与查找的代码实现：
 
