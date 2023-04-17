@@ -1,6 +1,6 @@
 排序过程如图所示：
 
-<img src="..\..\pic\binarySearch.jpg" style="zoom: 67%;" />
+<img src="..\..\pic\binarySearch.jpg" style="zoom: 50%;" />
 
 循环实现的算法如下所示：
 
@@ -31,7 +31,7 @@ int binarySearch(vector<int> arr, int key) {
 
 ```
 
-Comments
+#### Comments
 
 二分查找比较简单，每次分成[left, mid-1和[mid+1, right]两个区间，递归终止条件是left>right，而分成[left, mid]与[mid+1,right]两个区间时，递归终止条件是left==right。
 
