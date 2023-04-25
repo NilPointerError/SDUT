@@ -15,7 +15,9 @@
 
 #### Mind Map is as follows
 
-<img src="data structure and algorithm/pic/数据结构与算法.jpg" style="zoom: 33%;" />
+<div align="center">
+   <img src="data structure and algorithm/pic/数据结构与算法.jpg" width="400">
+</div>
 
 ## record 
 
