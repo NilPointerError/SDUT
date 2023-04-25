@@ -9,12 +9,13 @@
 - data structure
 
 1. linkedlist
-
 2. stack
-
 3. queue
-
 4. tree
+
+#### Mind Map is as follows
+
+<img src="data structure and algorithm/pic/数据结构与算法.jpg" style="zoom: 33%;" />
 
 ## record 
 
