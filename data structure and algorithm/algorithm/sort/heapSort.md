@@ -2,7 +2,7 @@
 
 如图是无序堆调整成大根堆的完整的过程，最后结果是数组升序排列。
 
-![](..\..\pic\heapSort.drawio.png)
+![](../../pic/heapSort.drawio.png)
 
 Test case:
 
