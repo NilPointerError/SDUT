@@ -1,0 +1,9 @@
+Linear Search: Time complexity is O(n). It is suitable for small and unsorted data sets.
+
+Binary Search: Time complexity is O(log n). It is suitable for large and sorted data sets.
+
+Hash Table: Average time complexity is O(1) and worst case time complexity is O(n). It is suitable for large data sets where the data can be hashed.
+
+Binary Search Tree: Average time complexity is O(log n) and worst case time complexity is O(n). It is suitable for large and dynamic data sets where the data can be ordered.
+
+B-Tree/B+ Tree: Time complexity is O(log n). It is suitable for large data sets that need to be stored on disk.
