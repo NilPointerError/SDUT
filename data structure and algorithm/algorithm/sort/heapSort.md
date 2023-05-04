@@ -1,5 +1,3 @@
-堆排序在算法题里面使用频率很高。常用于获取最大值或最小值的情况，比如优先级队列，作业调用等场景。
-
 如图是无序堆调整成大根堆的完整的过程，最后结果是数组升序排列。
 
 ![](../../pic/heapSort.drawio.png)
@@ -97,7 +95,7 @@ Updated version:
 #include <iostream>
 #include <algorithm>
 using namespace std;
-void max_heapify(int arr[], int start, int end) {
+void max_heapify(int arr[], int start, int end) {//O(logn)
     //建立父节点指标和子节点指标
     int dad = start;
     int son = dad * 2 + 1;
@@ -116,14 +114,22 @@ void max_heapify(int arr[], int start, int end) {
 
 void heap_sort(int arr[], int len) {
     //初始化，i从最后一个父节点开始调整
-    for (int i = len / 2 - 1; i >= 0; i--)
+    for (int i = len / 2 - 1; i >= 0; i--)//O(n)
         max_heapify(arr, i, len - 1);
     //先将第一个元素和已经排好的元素前一位做交换，再从新调整(刚调整的元素之前的元素)，直到排序完毕
-    for (int i = len - 1; i > 0; i--) {
+    for (int i = len - 1; i > 0; i--) {//O(nlogn)
         swap(arr[0], arr[i]);
         max_heapify(arr, 0, i - 1);
         print(arr, len);
     }
 }
 ```
+
+#### Comments
+
+堆排序是一种利用堆这种数据结构设计的一种排序算法。堆是一个近似完全二叉树的结构，满足子节点的键值总是小于（或者大于）它的父节点。
+
+堆排序在算法题里面使用频率很高。常用于获取最大值或最小值的情况，比如优先级队列，作业调用等场景。
+
+上述代码可知，堆排序的时间复杂度是由建堆和调整堆两个操作决定的，分别是O(n)和O(nlogn)，所以总的时间复杂度是O(n) + O(nlogn)=O(nlogn)。堆排序的平均时间复杂度、最好和最坏情况下都是O(nlogn)，空间复杂度为O(1)。它是不稳定的，因为交换堆顶和末尾元素可能会破坏相对顺序。
 
